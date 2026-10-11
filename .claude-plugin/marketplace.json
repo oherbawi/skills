@@ -334,7 +334,7 @@
     },
     {
       "name": "zeroize-audit",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "description": "Detects missing or compiler-optimized zeroization of sensitive data with assembly and control-flow analysis",
       "author": {
         "name": "Trail of Bits",
@@ -374,7 +374,7 @@
     },
     {
       "name": "fp-check",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "description": "Systematic false positive verification for security bug analysis with mandatory gate reviews",
       "author": {
         "name": "Maciej Domanski"
