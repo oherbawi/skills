@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT:-.}/hooks/setup-shims.sh\""
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT:?plugin root is unset, refusing to run hooks from the working directory}/hooks/setup-shims.sh\""
           }
         ]
       }
